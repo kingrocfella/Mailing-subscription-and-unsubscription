@@ -2,7 +2,7 @@
 session_start();
 if((isset( $_SESSION['clientmail']))  == false )
 {
-  header("Location: adminlogin.php");
+  header("Location: admin.php");
   exit();
 }
 ?>
